@@ -15,9 +15,6 @@
                     <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rr9-w4-GPp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <connections>
-                            <outlet property="delegate" destination="BYZ-38-t0r" id="td3-3k-Jy2"/>
-                        </connections>
                     </arscnView>
                     <connections>
                         <outlet property="sceneView" destination="rr9-w4-GPp" id="IOZ-PZ-tKU"/>

@@ -17,24 +17,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        // A1 sceneView setting
         
-        self.sceneView.scene = SCNScene()
         
-        // Do any additional setup after loading the view, typically from a nib.
+        // A5 add tapGesture to sceneView
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuration = ARWorldTrackingSessionConfiguration()
-        configuration.planeDetection = .horizontal
-        configuration.isLightEstimationEnabled = true
+        // A2 configuration ARWorldTrackingSessionConfiguration
         
-        // Run the view's session
-        self.sceneView.session.run(configuration)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.onTapGesture(_:))))
+        // A3 pause ARSession
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,29 +46,5 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController {
-    @objc private func onTapGesture(_ gesture: UITapGestureRecognizer) {
-        let positions = self.sceneView.hitTest(gesture.location(in: gesture.view), types: ARHitTestResult.ResultType.estimatedHorizontalPlane)
-        
-        guard let position = positions.first else { return }
-        
-        let material: UIImage = { () -> UIImage in
-            let images: [UIImage] = [
-                #imageLiteral(resourceName: "tsuna"),
-                #imageLiteral(resourceName: "salmon")
-            ]
-            let index: Int = Int(arc4random_uniform(UInt32(images.count)))
-            return images[index]
-        }()
-        
-        let sushi: Sushi = Sushi(material: material)
-        sushi.position = SCNVector3Make(position.worldTransform.columns.3.x,
-                                        position.worldTransform.columns.3.y,
-                                        position.worldTransform.columns.3.z)
-        self.sceneView.scene.rootNode.addChildNode(sushi)
-    }
-}
+// A4 handle tap gesture
 
-extension ViewController: ARSCNViewDelegate {
-    
-}

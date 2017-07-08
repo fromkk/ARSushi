@@ -14,7 +14,6 @@
 		AD0B9C201F109ACF00B97427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9C1E1F109ACF00B97427 /* LaunchScreen.storyboard */; };
 		AD0B9C2B1F109ACF00B97427 /* ARSushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */; };
 		AD0B9C361F109ACF00B97427 /* ARSushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */; };
-		AD0B9C4B1F109EB500B97427 /* Shari.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C4A1F109EB500B97427 /* Shari.swift */; };
 		AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C881F10A3B900B97427 /* Sushi.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		AD0B9C371F109ACF00B97427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0B9C441F109ADA00B97427 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		AD0B9C451F109B1800B97427 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		AD0B9C4A1F109EB500B97427 /* Shari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shari.swift; sourceTree = "<group>"; };
 		AD0B9C881F10A3B900B97427 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +143,6 @@
 		AD0B9C491F109EA600B97427 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				AD0B9C4A1F109EB500B97427 /* Shari.swift */,
 				AD0B9C881F10A3B900B97427 /* Sushi.swift */,
 			);
 			path = Objects;
@@ -285,7 +282,6 @@
 				AD0B9C181F109ACF00B97427 /* ViewController.swift in Sources */,
 				AD0B9C161F109ACF00B97427 /* AppDelegate.swift in Sources */,
 				AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */,
-				AD0B9C4B1F109EB500B97427 /* Shari.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
