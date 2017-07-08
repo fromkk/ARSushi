@@ -14,6 +14,8 @@
 		AD0B9C201F109ACF00B97427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9C1E1F109ACF00B97427 /* LaunchScreen.storyboard */; };
 		AD0B9C2B1F109ACF00B97427 /* ARSushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */; };
 		AD0B9C361F109ACF00B97427 /* ARSushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */; };
+		AD0B9C4B1F109EB500B97427 /* Shari.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C4A1F109EB500B97427 /* Shari.swift */; };
+		AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C881F10A3B900B97427 /* Sushi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		AD0B9C311F109ACF00B97427 /* ARSushiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSushiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSushiUITests.swift; sourceTree = "<group>"; };
 		AD0B9C371F109ACF00B97427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B9C441F109ADA00B97427 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		AD0B9C451F109B1800B97427 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		AD0B9C4A1F109EB500B97427 /* Shari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shari.swift; sourceTree = "<group>"; };
+		AD0B9C881F10A3B900B97427 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				AD0B9C291F109ACF00B97427 /* ARSushiTests */,
 				AD0B9C341F109ACF00B97427 /* ARSushiUITests */,
 				AD0B9C131F109ACF00B97427 /* Products */,
+				AD0B9C431F109ADA00B97427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +104,7 @@
 		AD0B9C141F109ACF00B97427 /* ARSushi */ = {
 			isa = PBXGroup;
 			children = (
+				AD0B9C491F109EA600B97427 /* Objects */,
 				AD0B9C151F109ACF00B97427 /* AppDelegate.swift */,
 				AD0B9C171F109ACF00B97427 /* ViewController.swift */,
 				AD0B9C191F109ACF00B97427 /* Main.storyboard */,
@@ -123,6 +131,24 @@
 				AD0B9C371F109ACF00B97427 /* Info.plist */,
 			);
 			path = ARSushiUITests;
+			sourceTree = "<group>";
+		};
+		AD0B9C431F109ADA00B97427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C451F109B1800B97427 /* SceneKit.framework */,
+				AD0B9C441F109ADA00B97427 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0B9C491F109EA600B97427 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C4A1F109EB500B97427 /* Shari.swift */,
+				AD0B9C881F10A3B900B97427 /* Sushi.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +284,8 @@
 			files = (
 				AD0B9C181F109ACF00B97427 /* ViewController.swift in Sources */,
 				AD0B9C161F109ACF00B97427 /* AppDelegate.swift in Sources */,
+				AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */,
+				AD0B9C4B1F109EB500B97427 /* Shari.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +552,7 @@
 				AD0B9C3C1F109ACF00B97427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD0B9C3D1F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +561,7 @@
 				AD0B9C3F1F109ACF00B97427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD0B9C401F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +570,7 @@
 				AD0B9C421F109ACF00B97427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
