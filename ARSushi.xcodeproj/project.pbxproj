@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0B9C161F109ACF00B97427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C151F109ACF00B97427 /* AppDelegate.swift */; };
+		AD0B9C181F109ACF00B97427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C171F109ACF00B97427 /* ViewController.swift */; };
+		AD0B9C1B1F109ACF00B97427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9C191F109ACF00B97427 /* Main.storyboard */; };
+		AD0B9C1D1F109ACF00B97427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9C1C1F109ACF00B97427 /* Assets.xcassets */; };
+		AD0B9C201F109ACF00B97427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9C1E1F109ACF00B97427 /* LaunchScreen.storyboard */; };
+		AD0B9C2B1F109ACF00B97427 /* ARSushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */; };
+		AD0B9C361F109ACF00B97427 /* ARSushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0B9C271F109ACF00B97427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B9C0A1F109ACF00B97427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B9C111F109ACF00B97427;
+			remoteInfo = ARSushi;
+		};
+		AD0B9C321F109ACF00B97427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B9C0A1F109ACF00B97427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B9C111F109ACF00B97427;
+			remoteInfo = ARSushi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0B9C121F109ACF00B97427 /* ARSushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9C151F109ACF00B97427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0B9C171F109ACF00B97427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0B9C1A1F109ACF00B97427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0B9C1C1F109ACF00B97427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0B9C1F1F109ACF00B97427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0B9C211F109ACF00B97427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B9C261F109ACF00B97427 /* ARSushiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSushiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSushiTests.swift; sourceTree = "<group>"; };
+		AD0B9C2C1F109ACF00B97427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B9C311F109ACF00B97427 /* ARSushiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSushiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSushiUITests.swift; sourceTree = "<group>"; };
+		AD0B9C371F109ACF00B97427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0B9C0F1F109ACF00B97427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C231F109ACF00B97427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C2E1F109ACF00B97427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0B9C091F109ACF00B97427 = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C141F109ACF00B97427 /* ARSushi */,
+				AD0B9C291F109ACF00B97427 /* ARSushiTests */,
+				AD0B9C341F109ACF00B97427 /* ARSushiUITests */,
+				AD0B9C131F109ACF00B97427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0B9C131F109ACF00B97427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C121F109ACF00B97427 /* ARSushi.app */,
+				AD0B9C261F109ACF00B97427 /* ARSushiTests.xctest */,
+				AD0B9C311F109ACF00B97427 /* ARSushiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0B9C141F109ACF00B97427 /* ARSushi */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C151F109ACF00B97427 /* AppDelegate.swift */,
+				AD0B9C171F109ACF00B97427 /* ViewController.swift */,
+				AD0B9C191F109ACF00B97427 /* Main.storyboard */,
+				AD0B9C1C1F109ACF00B97427 /* Assets.xcassets */,
+				AD0B9C1E1F109ACF00B97427 /* LaunchScreen.storyboard */,
+				AD0B9C211F109ACF00B97427 /* Info.plist */,
+			);
+			path = ARSushi;
+			sourceTree = "<group>";
+		};
+		AD0B9C291F109ACF00B97427 /* ARSushiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */,
+				AD0B9C2C1F109ACF00B97427 /* Info.plist */,
+			);
+			path = ARSushiTests;
+			sourceTree = "<group>";
+		};
+		AD0B9C341F109ACF00B97427 /* ARSushiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */,
+				AD0B9C371F109ACF00B97427 /* Info.plist */,
+			);
+			path = ARSushiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0B9C111F109ACF00B97427 /* ARSushi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B9C3A1F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushi" */;
+			buildPhases = (
+				AD0B9C0E1F109ACF00B97427 /* Sources */,
+				AD0B9C0F1F109ACF00B97427 /* Frameworks */,
+				AD0B9C101F109ACF00B97427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSushi;
+			productName = ARSushi;
+			productReference = AD0B9C121F109ACF00B97427 /* ARSushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0B9C251F109ACF00B97427 /* ARSushiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B9C3D1F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiTests" */;
+			buildPhases = (
+				AD0B9C221F109ACF00B97427 /* Sources */,
+				AD0B9C231F109ACF00B97427 /* Frameworks */,
+				AD0B9C241F109ACF00B97427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B9C281F109ACF00B97427 /* PBXTargetDependency */,
+			);
+			name = ARSushiTests;
+			productName = ARSushiTests;
+			productReference = AD0B9C261F109ACF00B97427 /* ARSushiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0B9C301F109ACF00B97427 /* ARSushiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B9C401F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiUITests" */;
+			buildPhases = (
+				AD0B9C2D1F109ACF00B97427 /* Sources */,
+				AD0B9C2E1F109ACF00B97427 /* Frameworks */,
+				AD0B9C2F1F109ACF00B97427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B9C331F109ACF00B97427 /* PBXTargetDependency */,
+			);
+			name = ARSushiUITests;
+			productName = ARSushiUITests;
+			productReference = AD0B9C311F109ACF00B97427 /* ARSushiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0B9C0A1F109ACF00B97427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = fromKK;
+				TargetAttributes = {
+					AD0B9C111F109ACF00B97427 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AD0B9C251F109ACF00B97427 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AD0B9C111F109ACF00B97427;
+					};
+					AD0B9C301F109ACF00B97427 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AD0B9C111F109ACF00B97427;
+					};
+				};
+			};
+			buildConfigurationList = AD0B9C0D1F109ACF00B97427 /* Build configuration list for PBXProject "ARSushi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0B9C091F109ACF00B97427;
+			productRefGroup = AD0B9C131F109ACF00B97427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0B9C111F109ACF00B97427 /* ARSushi */,
+				AD0B9C251F109ACF00B97427 /* ARSushiTests */,
+				AD0B9C301F109ACF00B97427 /* ARSushiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0B9C101F109ACF00B97427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B9C201F109ACF00B97427 /* LaunchScreen.storyboard in Resources */,
+				AD0B9C1D1F109ACF00B97427 /* Assets.xcassets in Resources */,
+				AD0B9C1B1F109ACF00B97427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C241F109ACF00B97427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C2F1F109ACF00B97427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0B9C0E1F109ACF00B97427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B9C181F109ACF00B97427 /* ViewController.swift in Sources */,
+				AD0B9C161F109ACF00B97427 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C221F109ACF00B97427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B9C2B1F109ACF00B97427 /* ARSushiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B9C2D1F109ACF00B97427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B9C361F109ACF00B97427 /* ARSushiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0B9C281F109ACF00B97427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B9C111F109ACF00B97427 /* ARSushi */;
+			targetProxy = AD0B9C271F109ACF00B97427 /* PBXContainerItemProxy */;
+		};
+		AD0B9C331F109ACF00B97427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B9C111F109ACF00B97427 /* ARSushi */;
+			targetProxy = AD0B9C321F109ACF00B97427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD0B9C191F109ACF00B97427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0B9C1A1F109ACF00B97427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0B9C1E1F109ACF00B97427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0B9C1F1F109ACF00B97427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0B9C381F109ACF00B97427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0B9C391F109ACF00B97427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0B9C3B1F109ACF00B97427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0B9C3C1F109ACF00B97427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD0B9C3E1F109ACF00B97427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSushi.app/ARSushi";
+			};
+			name = Debug;
+		};
+		AD0B9C3F1F109ACF00B97427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSushi.app/ARSushi";
+			};
+			name = Release;
+		};
+		AD0B9C411F109ACF00B97427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSushi;
+			};
+			name = Debug;
+		};
+		AD0B9C421F109ACF00B97427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = ARSushiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.ARSushiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSushi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0B9C0D1F109ACF00B97427 /* Build configuration list for PBXProject "ARSushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B9C381F109ACF00B97427 /* Debug */,
+				AD0B9C391F109ACF00B97427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B9C3A1F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B9C3B1F109ACF00B97427 /* Debug */,
+				AD0B9C3C1F109ACF00B97427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD0B9C3D1F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B9C3E1F109ACF00B97427 /* Debug */,
+				AD0B9C3F1F109ACF00B97427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD0B9C401F109ACF00B97427 /* Build configuration list for PBXNativeTarget "ARSushiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B9C411F109ACF00B97427 /* Debug */,
+				AD0B9C421F109ACF00B97427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0B9C0A1F109ACF00B97427 /* Project object */;
+}
