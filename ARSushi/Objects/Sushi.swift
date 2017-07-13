@@ -55,7 +55,8 @@ class Sushi: SCNNode {
         let shari: SCNNode = SCNNode(geometry: self.shari)
         
         // A12 add physicsBody to shari
-        
+        let shariShape = SCNPhysicsShape(geometry: self.shari, options: nil)
+        shari.physicsBody = SCNPhysicsBody(type: .dynamic, shape: shariShape)
         
         self.addChildNode(shari)
         
@@ -64,7 +65,8 @@ class Sushi: SCNNode {
             , 0.0)
         
         // A13 add physicsBody to body
-        
+        let bodyShape = SCNPhysicsShape(geometry: self.body, options: nil)
+        body.physicsBody = SCNPhysicsBody(type: .dynamic, shape: bodyShape)
         
         self.addChildNode(body)
     }

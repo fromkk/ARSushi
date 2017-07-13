@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sceneView: ARSCNView!
     
     // A10 save floors
-    
+    var floors: [Floor] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
 extension ViewController {
     @objc private func onTapGesture(_ gesture: UITapGestureRecognizer) {
         // A6 check hit position
-        let positions = self.sceneView.hitTest(gesture.location(in: gesture.view), types: ARHitTestResult.ResultType.estimatedHorizontalPlane) //A13 change to existingPlaneUsingExtent
+        let positions = self.sceneView.hitTest(gesture.location(in: gesture.view), types: ARHitTestResult.ResultType.existingPlaneUsingExtent) //A14 change to existingPlaneUsingExtent
         guard let position = positions.first else { return }
         
         // A8 add Sushis to sceneView
@@ -76,7 +76,7 @@ extension ViewController {
         
         let sushi: Sushi = Sushi(material: material)
         sushi.position = SCNVector3Make(position.worldTransform.columns.3.x,
-                                        position.worldTransform.columns.3.y, //A14 add + 0.03
+                                        position.worldTransform.columns.3.y + 0.03, //A15 add + 0.03
             position.worldTransform.columns.3.z)
         self.sceneView.scene.rootNode.addChildNode(sushi)
     }
@@ -86,6 +86,29 @@ extension ViewController {
 extension ViewController : ARSCNViewDelegate {
     
     // A11 add ARSCNViewDelegate
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+        
+        let floor = Floor(anchor: planeAnchor)
+        node.addChildNode(floor)
+        self.floors.append(floor)
+    }
     
+    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        for floor in self.floors {
+            if floor.anchor.identifier == anchor.identifier,
+                let planeAnchor = anchor as? ARPlaneAnchor {
+                floor.update(anchor: planeAnchor)
+            }
+        }
+    }
+    
+    func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
+        for (index, floor) in floors.enumerated().reversed() {
+            if floor.anchor.identifier == anchor.identifier {
+                self.floors.remove(at: index)
+            }
+        }
+    }
 }
 
