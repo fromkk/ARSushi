@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sceneView: ARSCNView!
     
+    // A10 save floors
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,4 +50,11 @@ class ViewController: UIViewController {
 }
 
 // A4 handle tap gesture
+
+
+extension ViewController : ARSCNViewDelegate {
+    
+    // A11 add ARSCNViewDelegate
+    
+}
 

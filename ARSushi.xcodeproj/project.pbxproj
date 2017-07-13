@@ -15,6 +15,7 @@
 		AD0B9C2B1F109ACF00B97427 /* ARSushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C2A1F109ACF00B97427 /* ARSushiTests.swift */; };
 		AD0B9C361F109ACF00B97427 /* ARSushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C351F109ACF00B97427 /* ARSushiUITests.swift */; };
 		AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9C881F10A3B900B97427 /* Sushi.swift */; };
+		AD5487A71F1223910067F555 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5487A61F1223910067F555 /* Floor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AD0B9C441F109ADA00B97427 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		AD0B9C451F109B1800B97427 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		AD0B9C881F10A3B900B97427 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
+		AD5487A61F1223910067F555 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				AD0B9C881F10A3B900B97427 /* Sushi.swift */,
+				AD5487A61F1223910067F555 /* Floor.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5487A71F1223910067F555 /* Floor.swift in Sources */,
 				AD0B9C181F109ACF00B97427 /* ViewController.swift in Sources */,
 				AD0B9C161F109ACF00B97427 /* AppDelegate.swift in Sources */,
 				AD0B9C891F10A3B900B97427 /* Sushi.swift in Sources */,
