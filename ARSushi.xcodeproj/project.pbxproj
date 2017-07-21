@@ -53,6 +53,7 @@
 		AD0B9C451F109B1800B97427 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		AD0B9C881F10A3B900B97427 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
 		AD5487A61F1223910067F555 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		ADB379DE1F218C1D00FFB766 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		AD0B9C091F109ACF00B97427 = {
 			isa = PBXGroup;
 			children = (
+				ADB379DE1F218C1D00FFB766 /* README.md */,
 				AD0B9C141F109ACF00B97427 /* ARSushi */,
 				AD0B9C291F109ACF00B97427 /* ARSushiTests */,
 				AD0B9C341F109ACF00B97427 /* ARSushiUITests */,
